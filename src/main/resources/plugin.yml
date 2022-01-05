@@ -1,0 +1,16 @@
+name: Skyblock
+version: '${project.version}'
+main: me.tomexas.skyblock.Skyblock
+api-version: 1.17
+commands:
+  addspawner:
+    description: Creates dungeon spawn location
+  editspawner:
+    description: Edit spawner settings
+  salosrestart:
+    description: Resets player island
+depend:
+  - SuperiorSkyblock2
+  - Citizens
+  - ProtocolLib
+  - PlaceholderAPI
